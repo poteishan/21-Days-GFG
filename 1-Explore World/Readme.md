@@ -1,5 +1,6 @@
 Project Name: Explore World: Tourism Portal for Trip Planning
-This Project is based on booking the package for traveller, the website named **Explore World**
+
+Description: This Project is based on booking the package for traveller and tourist for seamlesssly booking, without any hassle
 
 It has key features like
 

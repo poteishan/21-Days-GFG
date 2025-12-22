@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>21-days-project-1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header role="banner">
+        <div class="container">
+            <nav role="navigation" aria-label="main navigation">
+                <h1>Explore World</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destination">Destinations</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#booking">Book Now</a></li>
+                </ul>
+                <button class="ham"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section  -->
+    <section id="home" role="region" aria-label="home section">
+        <video class="bg-video" src="https://www.pexels.com/download/video/2169880/" autoplay loop muted
+            playsinline></video>
+        <div class="overlay"></div>
+        <div class="home-content container">
+            <h2>Discover Your Next Adventure</h2>
+            <p>
+                Explore breathtaking destinations around the world and create memories
+                that last a lifetime.
+            </p>
+            <a href="#packages" class="btn" aria-label="Packages">
+                Explore Packages
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Destinations section -->
+    <section id="destination" class="section" role="region" aria-label="destinations section">
+        <div class="container">
+            <h2 id="destinations-heading">Popular Destinations</h2>
+            <div class="destinations-grid">
+                <article class="destinations-card">
+                    <img src="https://images.pexels.com/photos/2419865/pexels-photo-2419865.jpeg" alt="manali" />
+                    <h3>Manali, India</h3>
+                </article>
+                <article class="destinations-card">
+                    <img src="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg" alt="tajmahal" />
+                    <h3>Taj Mahal, India</h3>
+                </article>
+                <article class="destinations-card">
+                    <img src="https://images.pexels.com/photos/35266297/pexels-photo-35266297.jpeg" alt="udaipur" />
+                    <h3>Udaipur, India</h3>
+                </article>
+                <article class="destinations-card">
+                    <img src="https://images.pexels.com/photos/14137273/pexels-photo-14137273.jpeg" alt="rajgad" />
+                    <h3>Rajgad, India</h3>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages section -->
+    <section id="packages" class="section" role="region" aria-label="packages section">
+        <div class="container">
+            <h2 id="packages-heading">Our Packages</h2>
+            <div class="packages-grid" role="listitem">
+                <article class="package" role="listitem">
+                    <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=800&q=80"
+                        alt="Europe scenic travel package" />
+                    <h3>Europe Explorer</h3>
+                    <p>10 Days | Starting from $1200</p>
+                    <button class="shadow trans" aria-label="Book Europe Explorer package"><a href="#booking">Book
+                            Now</a></button>
+                </article>
+                <article class="package" role="listitem">
+                    <img src="https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg"
+                        alt="Asia scenic travel package" />
+                    <h3>Asia Explorer</h3>
+                    <p>10 Days | Starting from $1200</p>
+                    <button class="shadow trans" aria-label="Book Asia Explorer package"><a href="#booking">Book
+                            Now</a></button>
+                </article>
+                <article class="package" role="listitem">
+                    <img src="https://images.pexels.com/photos/59989/elephant-herd-of-elephants-african-bush-elephant-africa-59989.jpeg"
+                        alt="Africa scenic travel package" />
+                    <h3>Africa Explorer</h3>
+                    <p>10 Days | Starting from $1200</p>
+                    <button class="shadow trans" aria-label="Book Africa Explorer package"><a href="#booking">Book
+                            Now</a></button>
+                </article>
+                <article class="package" role="listitem">
+                    <img src="https://images.pexels.com/photos/722014/pexels-photo-722014.jpeg"
+                        alt="America scenic travel package" />
+                    <h3>America Explorer</h3>
+                    <p>10 Days | Starting from $1200</p>
+                    <button class="shadow trans" aria-label="Book America Explorer package"><a href="#booking">Book
+                            Now</a></button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section" role="region" aria-label="testimonials section">
+        <div class="container">
+            <h2 id="testimonials-heading">What Our Travelers Say</h2>
+            <div class="testimonials-grid" role="list">
+                <blockquote class="testimonial">
+                    <i class="fa-solid fa-quote-left fa-2x"></i>
+                    <p>
+                        "This is the best website to explore the world”
+                    </p>
+                    <h4>- Rohan Joshi</h4>
+                </blockquote>
+                <blockquote class="testimonial">
+                    <i class="fa-solid fa-quote-left fa-2x"></i>
+                    <p>
+                        “ExploreWorld made our honeymoon unforgettable! Everything was
+                        perfectly arranged.”
+                    </p>
+                    <h4>- Vikas Thakur</h4>
+                </blockquote>
+                <blockquote class="testimonial">
+                    <i class="fa-solid fa-quote-left fa-2x"></i>
+                    <p>
+                        “Great stay and seamless booking”
+                    </p>
+                    <h4>- Rohit Sharma</h4>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form booking section-->
+    <section id="booking" role="form" aria-label="booking section">
+        <div class="container">
+            <h2 id="bookng-heading">Book Your Travel</h2>
+            <p id="booking-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur,
+                et!
+            </p>
+
+            <form aria-label="booking-form" method="post">
+                <label for="fullname">Full Name</label>
+                <input type="text" name="fname" id="fullname" required placeholder="enter your full name" />
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="enter your email address" />
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone" required placeholder="enter your 10 digit phone number" />
+                <label for="destination">Destinations</label>
+                <select name="destination id=" destination">
+                    <option value="">Paris</option>
+                    <option value="">Bali</option>
+                    <option value="">New York</option>
+                </select>
+
+                <label for="message or feedback">Message or Feedback</label>
+                <textarea name="feedback" id="message" placeholder="enter your special requirement"></textarea>
+                <button class="shadow trans final-book" type="submit">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- home work -->
+    <footer>
+        <div class="find">
+            <button class="shadow trans" class="shadow trans"><i class="fa-solid fa-magnifying-glass"
+                    style="color: #ffffff;"></i>
+                <h2>Find Us</h2>
+            </button>
+            <iframe title="ExploreWorld Office Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019835235083!2d-122.41941538468187!3d37.77492977975932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064d9d7b8a3%3A0x47fca1f7b3b9b0e!2sTravel%20Agency!5e0!3m2!1sen!2sin!4v1680000000000"
+                allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </footer>
+    <script>let ham = document.querySelector('.ham');
+        ham.addEventListener('click', () => {
+            let nav = document.querySelector('nav ul');
+            nav.classList.toggle('show');
+        })</script>
+</body>
+
+</html>

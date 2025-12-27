@@ -1,4 +1,4 @@
-**Project Name: Smart Inventory Managment**
+**Project Name: Smart Resource Manager: Allocation & Utilization Suite**
 
 Description: This Project is based on tracking and managing the project process, also visualize by charts like pie chart and bar-graph.
 
